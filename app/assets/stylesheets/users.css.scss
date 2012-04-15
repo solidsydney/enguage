@@ -1,0 +1,16 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.photo-upload:hover {
+  background: rgba(200, 200, 200, 0.6)
+}
+.user-show-details {
+  overflow: hidden;
+  .user-photos {
+    float: left;
+  }
+  .users-show-writeup {
+
+    margin-left: 110px;
+  }
+}

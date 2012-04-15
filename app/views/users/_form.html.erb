@@ -1,0 +1,77 @@
+<%= form_for(@user, :html => {:class=>"form-horizontal", :multipart => "true"}) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <fieldset>
+    <div class="control-group">
+      <%= f.label :name, "First Name", :class => "control-label" %>
+      <div class="controls">
+        <%= f.text_field :name, :class => "input-xlarge", :placeholder => "Enter First Name" %>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <%= f.label :surname, :class => "control-label" %>
+      <div class="controls">
+        <%= f.text_field :surname, :class => "input-xlarge", :placeholder => "Enter Last Name" %>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <%= f.label :email, :class => "control-label" %>
+      <div class="controls">
+        <%= f.email_field :email, :class => "input-xlarge", :placeholder => "Enter a valid email address" %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :phone_number, :class => "control-label" %>
+      <div class="controls">
+        <%= f.text_field :phone_number, :class => "input-xlarge", :placeholder => "Enter Phone Number" %>
+      </div>
+    </div>
+
+    <div class="control-group">
+    <%= f.label :referer_id, :class => "control-label" %>
+      <div class="controls">
+    <%= f.collection_select :referer_id, Referer.all, :id, :name, :prompt=>'Select referer' %>
+      </div>
+  </div>
+    <div class="control-group">
+      <%= f.label :address, :class => "control-label" %>
+      <div class="controls">
+        <%= f.text_field :address, :class => "input-xlarge", :placeholder => "Enter address" %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :mission, "Your Aim", :class => "control-label" %>
+      <div class="controls">
+        <%= f.text_area :mission, :rows => 3, :cols => 4, :class => "input-xlarge", :placeholder => "What do you intend to achieve in this program?" %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :payment_plan, :class => "control-label" %>
+      <div class="controls">
+        <%= f.select :payment_plan, [ ["Payment plan", nil], ["Instalment", "Instalment"], ["Full Payment", "Full Payment"]] %>
+      </div>
+    </div>
+    <div class="control-group">
+      <%= f.label :Please_Upload_your_image, :class => "control-label" %>
+      <div class="controls">
+        <%= f.file_field :photos, :class => "photo-upload" %>
+      </div>
+    </div>
+    <div class="control-group" style="float: right">
+    <%= f.submit "Join engage", :class => "btn btn-info" %>
+  </div>
+ </fieldset>
+<% end %>
+
+

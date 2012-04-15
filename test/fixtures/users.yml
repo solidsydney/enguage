@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  surname: MyString
+  referer_id: 1
+  address: MyString
+  mission: MyText
+  payment_plan: MyString
+
+two:
+  name: MyString
+  surname: MyString
+  referer_id: 1
+  address: MyString
+  mission: MyText
+  payment_plan: MyString

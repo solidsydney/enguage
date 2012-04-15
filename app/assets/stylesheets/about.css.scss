@@ -1,0 +1,140 @@
+.about-main {
+  font-weight: bold;
+  font-size: 1em;
+  font-family: "helvetica sans-serif arial monotype-corsiva";
+  text-align: justify; 
+  li {
+    display: inline;
+  }
+}
+
+.image-about {
+  width: 100px;
+  height: 100px;
+  float: left;
+  position: relative;
+  .initial-image {
+    width: 100%;
+    height: 100%;
+  }
+}
+.left-column {
+  width: 400px;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  margin-right: 10px;
+
+
+}
+.right-column {
+  width: 500px;
+  margin-left: 10px;
+  float: right;
+
+}
+.tools {
+  width: 400px;
+  margin-top: 5px;
+  border-radius: 4px;
+  .image-of-tools {
+    width: 70px;
+    float: left;
+    margin-top: 5px;
+    padding-right: 10px;
+
+  }
+p{
+  text-align: justify;
+  line-height: 19px;
+  margin-left: 80px;
+  em {
+    color: red;
+  }
+}
+h1{
+  font-size: 22px;
+}
+}
+.tools1 {
+  margin-top: 5px;
+  border-radius: 4px;
+  h1 {
+    color: #2375a3;
+  }
+  p{
+    text-align: justify;
+    line-height: 19px;
+    em {
+      color: red;
+    }
+
+  }
+  .image-tools {
+    float: right;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    margin-top: 0px;
+  }
+
+}
+.tools1 .first-second {
+  width: 530px;
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
+  .first-image {
+    float: left;
+    width: 70px;
+
+  }
+  .second-image {
+
+  }
+}
+.apps {
+  font-weight: 2em;
+  color: white;
+  background-color: blue;
+
+}
+.appst {
+  background-color: black;
+  color: white;
+
+}
+.appsy {
+  font-weight: 3em;
+  background-color: maroon;
+  color: #f5f5f5;
+  border-radius: 3px;
+}
+
+.social-media{
+  li{
+   display: inline;
+   list-style: none;
+   margin-right: 5px;
+  }
+}
+
+.first-second{
+ li{
+   display: inline;
+   img{
+    width: 70px;
+   }
+ }
+}
+
+.extra-padding-top{
+  padding-top: 65px;
+}
+
+.main2 .sponsors-header{
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+

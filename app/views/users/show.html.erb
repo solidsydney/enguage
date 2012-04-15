@@ -1,0 +1,53 @@
+<p id="notice"><%= notice %></p>
+<div class="extra-padding-top">
+<div class="user-show-details">
+    <%= image_tag @user.photos.url(:thumb), :class => "user-photos" %>
+  <div class="users-show-writeup">
+    <p>
+      <b>Your reg Number:</b>
+      <%= @user.reg_number %>
+    </p>
+    <p>
+      <b>Full Name:</b>
+      <%= @user.full_name %>
+    </p>
+
+    <p>
+      <b>Referer:</b>
+      <%= @user.referer_id %>
+    </p>
+
+    <p>
+      <b>Address:</b>
+      <%= @user.address %>
+    </p>
+
+    <p>
+      <b>Mission:</b>
+      <%= @user.mission %>
+    </p>
+
+    <p>
+      <b>Payment plan:</b>
+      <%= @user.payment_plan %>
+    </p>
+    <p>
+      <b>Initial amount paid by <%= @user.name %> is   &nbsp;  .................................  &nbsp  Balance.................</b><br /><br />
+      <b>Signature of Participant........................</b><br /><br />
+      <b>Signature of Management.........................</b><br /><br />
+    </p>
+
+  </div>
+  
+
+
+</div>
+  <div class="alert alert-info">
+    <p>
+      <input type="button" value="Print" onclick="$('.user-show-details').printElement();" class="btn" />
+      Print out this info and take a copy to our office at plot 612 university of abuja teaching hospital road Web Palace, Gwagwalada, Abuja. </p>
+  </div>
+
+ </div>
+
+

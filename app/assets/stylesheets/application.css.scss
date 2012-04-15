@@ -1,0 +1,119 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+@import "bootstrap_and_overrides.css.less";
+
+@import "welcome.css.scss";
+@import "users.css.scss";
+
+a:hover {
+  color: gold;
+  text-decoration: none;
+
+}
+.container2{
+  background: url(ForKids_afternoontea_2880_1620.jpg);
+  overflow: hidden;
+
+}
+
+.main{
+  width: 950px;
+  margin: 0px auto;
+  position: relative;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  margin-top: 60px;
+  border-radius: 3px;
+  box-shadow:   0px 2px 11px 2px rgba(0,0,0,0.5);
+}
+
+.main3{
+  width: 976px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.main img{
+  max-width: 100%;
+
+}
+@import "about.css.scss";
+.main2{
+  width: 950px;
+  margin: 0px auto;
+  margin-top: 20px;
+  overflow: hidden;
+h1 {
+  display: block;
+  font-family: helvetica monotype-corsiva;
+ }
+}
+
+.logo{
+  position: absolute;
+}
+
+.about{
+  float: left;
+  width: 480px;
+  margin-right: 5px;
+  .os{
+    max-width: 100%;
+    margin-top: 10px;
+  }
+}
+.header-small{
+  font-size: 20px;
+}
+.about-header{
+  border-bottom: 1px solid skyBlue;
+}
+#search {
+  margin-left: 53px;
+}
+
+#footer {
+  border-top: 2px solid;
+  margin: 0 auto 0;
+  padding: 0;
+  width: 900px;
+  margin-top: 5px;
+}
+
+#footer ul {
+  margin-bottom: 0;
+}
+#footer ul .engaged {
+  float: right;
+  margin-right: 0;
+}
+#footer li {
+  display: inline;
+  line-height: 2;
+  margin-right: 1.4em;
+}
+#footer li a {
+  color: #2375a3;
+  text-shadow: 1px 1px #000000;
+  text-decoration: none;
+
+}
+#footer li a:hover {
+  color: #ffffff;
+}
+.active {
+  background: none repeat scroll 0 0 #000000;
+  border-radius: 5px 5px 5px 5px;
+  color: gold;
+}
+.active a {
+  color: #2375a3;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.clear{
+  overflow: hidden;
+  clear: both;
+}

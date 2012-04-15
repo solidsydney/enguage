@@ -1,0 +1,23 @@
+<h1>Listing referers</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @referers.each do |referer| %>
+  <tr>
+    <td><%= referer.name %></td>
+    <td><%= link_to 'Show', referer %></td>
+    <td><%= link_to 'Edit', edit_referer_path(referer) %></td>
+    <td><%= link_to 'Destroy', referer, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Referer', new_referer_path %>

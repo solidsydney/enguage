@@ -1,0 +1,108 @@
+<div class="main2">
+  <h1 style="border-bottom: 1px solid skyBlue;">About Us</h1>
+    <div class="about-main">
+      <p><div class="image-about"><%= image_tag "pricetag.png", :class => "initial-image" %></div>
+      <b>enGUAGE</b> is a monthly bootcamp organised by Web Farm international limited trading as <b>web palace&trade;</b>.
+      It is an Open, Collaborative and Community Oriented working environment for <em><b>beginners</b>, <b>nameless coders</b>, and <b>Start-up enthusiast</b></em> to learn and develop Apps with Hands-on-practical experience.
+      </p>
+
+      <p>We here by welcome you to the first episode of enguage hosted at gwagwalada on the <b>1st of May 2012</b> in which we bring
+        to you wonderful packages tha would blow your minds in the aspect of <b>web development</b>.
+      </p>
+     <h5>enGUAGER's</h5>
+        learn to create Apps like &nbsp;
+        <li><span class="label"> Facebook </span> </li> &nbsp;
+        <li><span class="label"> Twitter<%= link_to image_tag("twitter.png")  %></span> </li> &nbsp;
+      <li><span class="label">you<span class="appsy"> tube </span></span><br /> </li>&nbsp; from the Scratch, Also build web and mobile applications as Entrepreneurs.<br />
+        <b><em>enGUAGER's</em></b>, get engauged with the worlds best development tools such as <li>Ruby on Rails</li> <br /><li>CSS3 and HTML5</li><br /> <li>javascript</li><br /> <li>JQuery</li><br /> <li>JSON</li> <br /><li>Blackberry OS</li><br /> <li>Android OS</li><br /> <li>IOS</li> <br /><li>Web OS</li> <br />
+
+      <p>In this first episode of enguage we would be developing together our first <b>Entertainment Web and mobile Application</b> which would include the following functions</p>
+
+
+      </p>
+    </div>
+  <div class= "main2">
+
+    <div class="left-column">
+        <h1 style="border-bottom: 1px solid #87ceeb"> Our Tools</h1>
+      <div class="tools">
+          <%= image_tag "rails.png", :class => "image-of-tools" %>
+        <h1>Ruby on Rails</h1>
+          <p>
+          this is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetk dan sur la tesal rloum upsou lodar cader et the loren isprom la roma isprom lorem  the making of a new relm has not ye around me to et comme to past and i would like to know how to make things even and tell evey on
+          </p>
+      </div>
+
+      <div class="tools">
+        <%= image_tag "images (1).jpg", :class => "image-of-tools" %>
+        <h1>mobile OS</h1>
+          <p>
+          this is has to do with the mobile Operating system we will be dealing with during the course of our trainin, which include the <em>Blackberry OS</em> by <b>RIM</b>, the <em>Android OS</em> by <b>Google</b>, the <em>IOS</em> by <b>Apple</b>, and the <em>Symbian OS</em> by <b>Nokia</b> to know how to make things even and tell evey on
+          </p>
+      </div>
+
+      <div class="tools">
+        <%= image_tag "devices.png", :class => "image-of-tools" %>
+        <h1>JQuery</h1>
+          <p>
+          this is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetk dan sur la tesal rloum upsou lodar cader et the loren isprom la roma isprom lorem  the making of a new relm has not ye around me to et comme to past and i would like to know how to make things even and tell evey on
+          </p>
+      </div>
+
+      <div class="tools">
+        <%= image_tag "p.png", :class => "image-of-tools" %>
+        <h1>HTML5/CSS3</h1>
+         <p>
+          this is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetk dan sur la tesal rloum upsou lodar cader et the loren isprom la roma isprom lorem  the making of a new relm has not ye around me to et comme to past and i would like to know how to make things even and tell evey on
+         </p>
+      </div>
+
+      <div class="tools">
+        <%= image_tag "images.jpg", :class => "image-of-tools" %>
+        <h1>JSON/Javascript</h1>
+         <p>
+          this is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetk dan sur la tesal rloum upsou lodar cader et the loren isprom la roma isprom lorem  the making of a new relm has not ye around me to et comme to past and i would like to know how to make things even and tell evey on
+         </p>
+      </div>
+
+
+    </div>
+
+    <div class="right-column">
+        <h1 style="border-bottom: 1px solid skyblue;">Your Benefits</h1>
+      <div class="tools1">
+        <h1 style="font-family: arial;" align="justify">Get a cd with resources worth <strike> N</strike>10,000</h1>
+        <p>
+          this is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetk dan sur la tesal rloum upsou lodar cader et the loren isprom la roma isprom lorem  the making of a new relm has not ye around me to et comme to past and i would like to know how to make things even and tell evey on this is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetkthis is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetk
+
+        </p>
+      </div>
+
+      <div class="tools1">
+        <h1 style="font-size: 22px; font-family: arial;" align="justify">Learn To work with the best development Tools</h1>
+        <p>
+          this is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetk dan sur la tesal rloum upsou lodar cader et the loren isprom la roma isprom lorem  the making of a new relm has not ye around me to et comme to past and i would like to know how to make things even and tell evey on this is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetkthis is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetk
+
+        </p>
+      </div>
+
+      <div class="tools1">
+        <h1 style="font-size: 23px; font-family: arial;" align="justify">Become a pro in mobile and web development</h1>
+        <p>
+          this is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetk dan sur la tesal rloum upsou lodar cader et the loren isprom la roma isprom lorem  the making of a new relm has not ye around me to et comme to past and i would like to know how to make things even and tell evey on this is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetkthis is the web frame work to be used for this project.. lorem ipsum dolar core ipsum summetk
+        </p>
+      </div>
+      <div class="tools1">
+        <h1 style="color: maroon; ">Sponsors</h1>
+        <div class="first-second">
+          <%= image_tag "devices.png", :class=>"first-image"  %>
+          <%= image_tag "rails.png", :class=>"first-image"  %>
+          <%= image_tag "webpalace ico.png", :class=>"first-image", :style => "width: 100px;"  %>
+          <%= image_tag "p.png", :class=>"first-image", :style => "width: 150px;"  %>
+          <%= image_tag "images (1).jpg", :class=>"first-image", :style => "width: 100px;"  %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

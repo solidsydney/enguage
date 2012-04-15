@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <title><%= content_for?(:title) ? yield(:title) : "Engaged" %></title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag('favicon.ico') %>
+  <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28631831-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+  </script>
+</head>
+
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+
+    <div class="main3" style="max-height: 42px;"><b><%= link_to "enGUAGE", root_url, :class => "brand"%></b>
+    <div class="nav-collapse">
+      <ul class="nav">
+        <li class="<% if controller_name == "welcome" %> active <% end %>">
+          <%= link_to "Home", root_url %>
+        </li>
+        <li class="<% if controller_name == "about" %> active <% end %>">
+        <%= link_to "about", about_us_path %>
+        </li>
+        <li class="<% if controller_name == "users" %> active <% end %>">
+          <%= link_to "Register Online Now", new_user_path %>
+        </li>
+      </ul>
+      <div id="search">
+        <%= form_tag  search_box_path, :method => 'get', :class => "navbar-search", :style => "margin-left: 285px;"  do %>
+            <%= text_field_tag :q, @q, :placeholder => "Enter your Reg Number", :class => "search-query" %>
+        <% end %>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<% if yield content_for?(:top_image)%>
+  <%= yield(:top_image)%>
+<% end %>
+
+<div class="main2">
+<%= yield %>
+</div>
+<hr>
+<footer>
+  <ul class="footer-links">
+    <li>
+      <a href="http://www.engaged.rzaartz.com" >Engaged</a>
+      <b style="color: #666;">2012&copy;</b>
+    </li>
+    <li>
+      <%= link_to "Home", root_url %>
+    </li>
+    <li>
+      <%= link_to "About", about_us_path %>
+    </li>
+    <li>
+      <%= link_to "contact us", contacts_path %>
+    </li>
+    <li class="engaged" style="float: right; margin-right: 0;">
+      <b style="color: #666;">Designed by</b>
+      <a target="_blank" href="http://www.webpalace.com/">Web Farm&trade;</a>
+    </li>
+  </ul>
+</footer>
+</body>
+</html>

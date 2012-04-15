@@ -1,0 +1,16 @@
+<div class="extra-padding-top" style="width: 50%;">
+  <h1>Enter your reg number</h1>
+
+  <div id="">
+    <%= form_tag  search_box_path, :method => 'get', :class => "navbar-search" do %>
+        <%= text_field_tag :q, @q, :placeholder => "Enter your Reg Number", :style => "margin-bottom:0;" %>
+        <%= submit_tag "search", :class => "btn" %>
+    <% end %>
+  </div>
+  <div class="clear"></div>
+  <div class="alert alert-info" style="margin-top: 10px;">
+    <p>Enter your registration number in the form above to print your registration slip.</p>
+  </div>
+  <p> Not yet registered? <%= link_to "click here", new_user_url %></p>
+</div>
+

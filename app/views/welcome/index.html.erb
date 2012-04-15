@@ -1,0 +1,61 @@
+<%= provide(:top_image) do %>
+    <div class="container2">
+      <div class="main">
+        <%= image_tag("p4.png")%>
+      </div>
+    </div>
+<% end %>
+
+<div class="container-block" style="overflow: hidden;">
+<div class="about">
+  <div class="about-header">
+    <h1><span class="header-small">Welcome to engage</span></h1>
+  </div>
+  <div class="about-info justify-text">
+    <p class="small-fonts" >
+      <%= image_tag "pricetag.png", :class => "initial-image", :style => "float: left; width: 200px" %>
+      <b>enGUAGE</b> is a monthly bootcamp organised by Web Farm international limited trading as <b>web palace&trade;</b>.
+      It is an Open, Collaborative and Community Oriented working environment for <em><b>beginners</b>, <b>nameless coders</b>, and <b>Start-up enthusiast</b></em> to learn and develop Apps with Hands-on-practical experience.
+    </p>
+
+    <p>We here by welcome you to the first episode of enguage hosted at gwagwalada on the <b>1st of May 2012</b> in which we bring
+    to you wonderful packages tha would blow your minds in the aspect of <b>web development</b>.
+    </p>
+    <p>
+      We would introduce to you the best and most current web development tools such as:-
+    </p>
+    <p>
+      <b>RubyOnRails</b>(The No 1 web programming platform in the world today leaving php behind bars.),
+      <b>Javascript</b>,
+      <b>Jquery</b>,
+      <b>MySql</b>,
+      <b>Ajax</b>,
+      <b>Html 5</b>,
+      <b>Cs3</b>,
+    </p>
+    <p>In this first episode of enguage we would be developing together our first <b>Entertainment Web and mobile Application</b>  <%= link_to "Learn more", about_us_path, :class => "btn" %></p>
+  </div>
+  <%= image_tag "Screenshot.png", :style => "width: 100%;"%>
+</div>
+
+<div class="reg-details">
+  <div class="about-header">
+    <h1><span class="header-small"><em>Join engage now!</em></span> <span style="float: right; font-size: 12px;">Already registered  <%= link_to "Click here", search_form_path %></span></h1>
+  </div>
+  <div class="reg-form">
+   <%= render "users/form" %>
+  </div>
+
+</div>
+</div>
+
+<div>
+  <h1 class="sponsors-header" style="color: maroon;">Sponsors</h1>
+  <ul class="first-second" style="margin-left: 0;">
+    <li><%= image_tag "800px-Microsoft_Logo.png" %></li>
+    <li><%= image_tag "863724227.png", :class=>"first-image"  %></li>
+    <li><%= image_tag "webpalace ico.png", :class=>"first-image", :style => "width: 100px;"  %></li>
+    <li><%= image_tag "Google.png", :class=>"first-image", :style => "width: 150px;"  %></li>
+  </ul>
+</div>
+
